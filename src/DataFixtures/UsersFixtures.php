@@ -35,7 +35,6 @@ class UsersFixtures extends Fixture
         $admin->setRoles(['ROLE_ADMIN']);
         $manager->persist($admin);
 
-
         // fake va servir à générer des données aléatoires pour les fixtures , ici des utilisateurs 
         $faker = \Faker\Factory::create('fr_FR');
         for($usr=1; $usr<= 5; $usr++){
