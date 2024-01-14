@@ -16,11 +16,8 @@ class UsersFixtures extends Fixture
 
     }
 
-
-
     public function load(ObjectManager $manager): void
     {
-        
 
         $admin = new Users();
         $admin->setEmail('admin@demo/fr');
